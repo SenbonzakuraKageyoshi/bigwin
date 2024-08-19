@@ -1,0 +1,34 @@
+@import './vendors/index.css';
+@import './components/index.css';
+@import './pages/index.css';
+
+*{
+    box-sizing: border-box;
+    font-family: '';
+}
+
+body{
+    background-color: #0f009b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+a{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+    height: 100px;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 40px;
+    border-radius: 50px;
+}
+
+.container{
+    max-width: 1420px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
